@@ -4,7 +4,6 @@ import "../Style/Login.css";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useGLTF, Stage, PresentationControls } from "@react-three/drei";
 import { toast } from "react-toastify";
-// import "./login.css";
 import BASE_URL from "../../../Services/Service";
 function Model(props: any) {
   const { scene } = useGLTF("/ethereum/scene.gltf");

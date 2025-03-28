@@ -67,9 +67,9 @@ const CoinItem = (props: {
         </p>
       )}
       <p className="hide-mobile hidden md:block">
-        ₹{props.coins.total_volume.toLocaleString()}
+        ₹{props.coins.total_volume?.toLocaleString()}
       </p>
-      <p className="hide-mobile hidden md:block">₹{props.coins.market_cap.toLocaleString()}</p>
+      <p className="hide-mobile hidden md:block">₹{props.coins.market_cap?.toLocaleString()}</p>
     </div>
   );
 };
